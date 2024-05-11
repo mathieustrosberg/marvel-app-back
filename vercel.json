@@ -8,22 +8,22 @@
   ],
   "routes": [
     {
-      "src": "/api/characters",
+      "src": "/characters",
       "methods": ["GET"],
       "dest": "src/index.js"
     },
     {
-      "src": "/api/characters/(.*)",
+      "src": "/characters/(.*)",
       "methods": ["GET"],
       "dest": "src/index.js"
     },
     {
-      "src": "/api/comics",
+      "src": "/comics",
       "methods": ["GET"],
       "dest": "src/index.js"
     },
     {
-      "src": "/api/comics/(.*)",
+      "src": "/comics/(.*)",
       "methods": ["GET"],
       "dest": "src/index.js"
     }
